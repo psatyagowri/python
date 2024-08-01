@@ -1,0 +1,138 @@
+python:
+simple learn
+length of code-very small
+complex problem to be solved
+Application of python:
+web and internet development
+desktop gui applications
+artifical intelligence
+machine learning
+image processing applications
+business applications
+games and 3d graphics
+network programming 
+database access
+numeric:
+integer
+complex number(a+bj)
+float(3.14)
+programing:
+out variables
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+out:python is awesome
+
+x = "Python "
+y = "is "
+z = "awesome"
+print(x + y + z)
+out:python is awesome
+
+x = 5
+y = "John"
+print(x, y)
+out:5 jhon
+x = 5
+y = "John"
+print(x+y)
+out:error
+
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+out:python is awesome
+
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+out:python is fantastic
+    python is awesome
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+out:python is fantastic
+
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+out:python is fantastic
+
+quiz:
+x = ["apple", "banana", "cherry"]
+print(type(x))
+
+ans:list
+
+without any whitespace:
+txt = " Hello World "
+x = txt.strip()
+
+Convert the value of txt to upper case.
+txt = "Hello World"
+txt = txt.upper()
+replacing:
+txt = "Hello World"
+txt = txt.replace("H","J")
+
+Insert the correct syntax to add a placeholder for the age parameter.
+
+age = 36
+txt = "My name is John, and I am 
+{}
+"
+print(txt.format(age))
+
+
+x = frozenset({"apple", "banana", "cherry"})
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+out:frozenset({'banana', 'cherry', 'apple'})
+<class 'frozenset'>
+
+x = {"apple", "banana", "cherry"}
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+out:{'banana', 'cherry', 'apple'}
+<class 'set'>
+x = 1j
+
+#display x:
+print(x)
+
+#display the data type of x:
+print(type(x)) 
+out:lj
+<class 'complex'>
+
+
+
